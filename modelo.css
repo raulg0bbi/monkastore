@@ -57,14 +57,18 @@ body {
 
 .image {
   display: block;
-  margin: auto;
   opacity: 0.3;
-  width: 50%;
+  width: 95%;
+  position: relative;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
 .container {
-    position: static;
+	position: relative;
+	width: 50%;
+	left: 25%;
 
 }
+
+/* ta uma bagunça? ta uma bagunça, caguei? caguei */
