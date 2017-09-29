@@ -108,4 +108,39 @@ z-index: -1000;
 .vid-info .acronym { display: none; }
 }
 
+
+.fa {
+	padding: 10px;
+	opacity: 0.5;
+	transition: .5s ease;
+	width: 50px;
+	height: 50px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.footah {
+font: 35px normal, sans-serif;
+width: 99%;
+bottom: 1%;
+ text-align: right;
+position: absolute;
+}
+
+
 /* ta uma bagunça? ta uma bagunça, caguei? caguei */
