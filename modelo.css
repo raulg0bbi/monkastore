@@ -1,17 +1,31 @@
+@font-face {
+	font-family: champanhe;
+	src: url(lalala.ttf);
+}
 body {
 	
   font: 75px Raleway, sans-serif;
-  color: black;
   background-repeat: no-repeat;
 background-attachment: fixed;
   background-size: cover;
   
 }
 
+.center:hover {
+  opacity: 1;
+}
+
+
 .center {
-	position: absolute;
-    left: 0;
+	opacity: 0.5;
+	  transition: .5s ease;
+	position: relative;
     text-align: center;
+    vertical-align: middle;
+    top: 270px;
+    line-height: 20px;
+    color:#96a3ff;
+    font-family: "champanhe", champanhe, Serif;
 }
 
 .video {
@@ -39,8 +53,9 @@ z-index: -1000;
 
 .image {
   display: block;
-  opacity: 0.3;
-  width: 90%;
+  opacity: 0.5;
+  width: 1000%;
+  left: -6%
   position: relative;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -48,8 +63,8 @@ z-index: -1000;
 
 .container {
 	position: relative;
-	width: 50%;
-	left: 25%;
+	width: 10%;
+	
 
 }
 
@@ -59,14 +74,17 @@ z-index: -1000;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
+    -webkit-filter: brightness(50%); /* Safari 6.0 - 9.0 */
+    filter: brightness(50%);
 }
+
 .video-foreground,
 .video-background iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: -7%;
+  left: -7%;
+  width: 114%;
+  height: 114%;
   pointer-events: none;
 }
 #vidtop-content {
