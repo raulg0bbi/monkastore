@@ -6,8 +6,19 @@
 <title>monkaStore~</title>
 </head>
 <body>
-<div class="container">
-<center><img src="xaxa.png" class="image"></center>	
-</div>
+	<div class="container">
+		<center>
+			<img src="xaxa.png" class="image">
+		</center>
+
+		<audio id="bgsound" autoplay loop> <source src="blackout.mp3"
+			type="audio/mp3"> </audio> <script>
+				var aud = document.getElementById("bgsound");
+				function baxaVolume() {
+					aud.volume = 0.1;
+				}
+				baxaVolume();
+			</script>
+	</div>
 </body>
 </html>
