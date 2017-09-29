@@ -1,12 +1,13 @@
 body {
+	
   font: 75px Raleway, sans-serif;
   color: white;
-   background-image: url("bg.jpg");
+   background-image: url("https://raw.githubusercontent.com/raulg0bbi/monkastore/master/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
 } 
-
 
  .letter {
         position: absolute;
@@ -38,9 +39,32 @@ body {
 .center {
 	position: absolute;
     left: 0;
-    top: 30%;
-    width: 100%;
     text-align: center;
 }
+
+
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 160px 320px;
+}
+
+.container:hover .image {
+  opacity: 1;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  opacity: 0.3;
+  width: 50%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container {
+    position: static;
 
 }
